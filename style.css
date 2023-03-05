@@ -146,6 +146,25 @@ hr {
     margin-bottom: 1.5rem;
 }
 
+#end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 50vh;
+    color: rgb(20, 57, 18);
+}
+
+.end-content p {
+    text-align: center;
+}
+
 footer {
     background-color: #67754E;
     height: 40px;
@@ -189,5 +208,21 @@ footer {
 
     #faq {
         padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .questions {
+        align-items: start;
+    }
+
+    #faq h4 {
+        text-align: left;
+    }
+
+    .questions > p {
+        width: 100%;
+    }
+
+    .end-content {
+        width: 100%;
     }
 }
