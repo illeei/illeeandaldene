@@ -9,7 +9,7 @@
 }
 
 p {
-    font-family: 'Libre Baskerville';
+    font-family: 'Lato';
     line-height: 1.5rem;
     color: rgb(20, 57, 18);
     width: 75%;
@@ -115,7 +115,7 @@ a {
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 75%;
+    width: 65%;
 }
 
 .question {
@@ -129,8 +129,8 @@ a {
 }
 
 #faq h4 {
-    /* font-size: 1.25rem; */
-    font-family: 'Libre Baskerville';
+    font-size: 1.25rem;
+    font-family: 'Josefin Sans';
     text-align: center;
     font-weight: 700;
     color: #143912;
