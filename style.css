@@ -71,14 +71,15 @@ a {
 
 #venue,
 #travel {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     width: 100%;
+    align-items: center;
 }
 
 .venue-left,
 .travel-right {
     padding: 2rem;
+    flex: 1;
 }
 
 .venue-left img,
@@ -94,6 +95,7 @@ a {
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
+    flex: 1;
 }
 
 #faq {
@@ -146,4 +148,45 @@ hr {
 footer {
     background-color: #67754E;
     height: 40px;
+}
+
+@media (max-width: 768px) {
+    #hero-content{
+        width: 80%;
+    }
+    .venue-right,
+    .venue-left,
+    .travel-right,
+    .travel-left {
+        padding: 1rem;
+    }
+    p {
+        width: 90%;
+    }
+    #venue,
+    #travel,
+    #faq {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+    .questions {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .venue-right,
+    .venue-left,
+    .travel-right,
+    .travel-left {
+        flex:  0 1 auto;
+    }
+
+    #travel {
+        flex-direction: column-reverse;
+    }
+
+    #faq {
+        padding: 3rem 1rem 3rem 1rem;
+    }
 }
