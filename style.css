@@ -10,7 +10,7 @@
 
 p {
     font-family: 'Lato';
-    line-height: 1.5rem;
+    line-height: 1.75rem;
     color: rgb(20, 57, 18);
     width: 75%;
     text-align: center;
@@ -23,6 +23,7 @@ h3 {
     margin-bottom: 1rem;
     color: #355007;
     text-align: center;
+    line-height: 2rem;
 }   
 
 a {
@@ -135,7 +136,7 @@ a {
     font-weight: 700;
     color: #143912;
     margin-bottom: 1rem;
-    
+    line-height: 1.5rem;
 }
 
 hr {
