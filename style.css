@@ -139,6 +139,11 @@ a {
     line-height: 1.5rem;
 }
 
+#faq h4,
+#faq p {
+    color: #355007
+}
+
 hr {
     border: .5px solid #a79c84;
     width: 50%;
@@ -166,7 +171,7 @@ hr {
 }
 
 footer {
-    background-color: rgb(20, 57, 18);
+    background-color: #919E72;
     height: 40px;
 }
 
